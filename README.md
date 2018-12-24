@@ -1,2 +1,2 @@
 # slider
-A cute sllider
+A cute slider with photos from Unsplash.
