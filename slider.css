@@ -1,0 +1,74 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+@keyframes changeOpacity
+{
+	0% { filter: opacity(0%); }
+	50% { filter: opacity(50%); }
+	100% { filter: opacity(100%); }
+}
+
+body
+{
+	background-image: url('img/full-bloom.png');
+	/* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/  */
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+	font-size: 1.2rem;
+	color: #122f60;
+	line-height: 1.5;	
+	
+}
+
+img /* Zdjęcia ze strony: https://unsplash.com */
+{
+	height: 70vh;
+	border-radius: 10px;
+	animation-name: changeOpacity;
+	animation-duration: 1s;	
+}
+
+div
+{
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn
+{
+	height: 8vh;
+}
+
+button
+{	
+	border: none;
+	background-color: #122f60;
+	color: #c8d3e6;
+	padding: 5px 10px;
+	margin-right: 10px;
+    margin-left: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 4px cornflowerblue;
+}
+
+button:hover
+{
+	background-color: #011e50;
+}
+
+button:active
+{
+	color: #ffffff;
+}
+
+.container
+{
+	width: 100%;
+}
+
+
